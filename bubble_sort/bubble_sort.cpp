@@ -25,3 +25,26 @@ void input() {
 		cin >> a[1];
 	}
 }
+
+void bubbleSortArray() {
+	for (int 1 = 1; 1 < n; 1++) {
+		for (int j = 0; j < n - 1; j++) {
+			if (a[j] > a[j + 1]) {
+				int temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+		}
+	}
+}
+
+void unsorted() {
+	cout << endl;
+	cout << "=================================" << endl;
+	cout << "Elemen Array yang belum tersusun" << endl;
+	cout << "=================================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+	cout << endl;
+}
