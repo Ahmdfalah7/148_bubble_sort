@@ -20,14 +20,14 @@ void input() {
 	cout << "Masukkan Elemen Array" << endl;
 	cout << "===================" << endl;
 	
-	for (int 1 = 0; 1 < n; 1++) {
+	for (int i = 0; 1 < n; i++) {
 		cout << "Data ke-" << (1 + 1) << ": ";
 		cin >> a[1];
 	}
 }
 
 void bubbleSortArray() {
-	for (int 1 = 1; 1 < n; 1++) {
+	for (int i = 1; 1 < n; i++) {
 		for (int j = 0; j < n - 1; j++) {
 			if (a[j] > a[j + 1]) {
 				int temp = a[j];
@@ -38,13 +38,4 @@ void bubbleSortArray() {
 	}
 }
 
-void unsorted() {
-	cout << endl;
-	cout << "=================================" << endl;
-	cout << "Elemen Array yang belum tersusun" << endl;
-	cout << "=================================" << endl;
-	for (int j = 0; j < n; j++) {
-		cout << a[j] << endl;
-	}
-	cout << endl;
-}
+
